@@ -1,0 +1,17 @@
+.overlay-open {
+    .bars {
+      &:before {
+        @include transform(scale(0));
+      }
+  
+      &:after {
+        @include transform(scale(1));
+      }
+    }
+  
+    &.ls-closed {
+      .sidebar {
+        margin-left: 0;
+      }
+    }
+  }
