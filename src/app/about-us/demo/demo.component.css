@@ -1,0 +1,10 @@
+.heading{
+    margin: 70px 0px 30px;
+    text-align: center !important;
+    font-size: 2em !important;
+    text-transform: uppercase !important;
+    font-family: inherit !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+    color: #4e4246 !important;
+}

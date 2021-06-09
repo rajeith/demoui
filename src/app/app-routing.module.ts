@@ -5,16 +5,16 @@ const routes: Routes = [
   {
     path: '',
     children: [
-      { path: '', redirectTo: '/home-page/demo', pathMatch: 'full' },
+      { path: '', redirectTo: '/product/aboutus', pathMatch: 'full' },
+      // {
+      //   path: 'home-page',
+      //   loadChildren: () =>
+      //     import('./home-page/home-page.module').then(
+      //       (m) => m.HomePageModule
+      //     )
+      // },
       {
-        path: 'home-page',
-        loadChildren: () =>
-          import('./home-page/home-page.module').then(
-            (m) => m.HomePageModule
-          )
-      },
-      {
-        path: 'about-us',
+        path: 'product',
         loadChildren: () =>
           import('./about-us/about-us.module').then(
             (m) => m.AboutUsModule

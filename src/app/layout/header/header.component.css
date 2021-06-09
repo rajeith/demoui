@@ -1,0 +1,19 @@
+.navbar{
+    min-height: 119px;
+    background: linear-gradient( 
+45deg
+ ,#ff40e4,#c040ff)!important;
+    color: #fff;
+}
+a {
+    color: #fff;
+ font-weight: bold;
+
+    font-size: 15px;
+}
+.header{
+    margin-bottom: 60px !important;
+}
+.u.active {
+    border-bottom: 1px solid !important;
+}
